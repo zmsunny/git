@@ -1,0 +1,80 @@
+.car_top h3{
+    margin-top:27px;
+}
+.car_top div{
+    margin-top:60px;
+}
+.count{
+    width:100%;
+    padding-top:70px;
+    text-align:right;
+    padding-bottom:20px;
+}
+.count span:nth-of-type(1){
+    font-size:14px;
+}
+.count button{
+    width:57px;
+    height:20px;
+    background-color:#F8A200;
+    color:#fff;
+    margin:10px;
+}
+.list{
+    border-top:2px solid #E02D2D;
+}
+.list ul{
+    width:100%;
+    background-color:#F5F5F5; 
+}
+.list ul li{
+    float:left;
+    width:20%;
+    text-align:center;
+    height:40px;
+    line-height:40px;
+}
+.footer .container{
+    text-align:center;
+    border-top:1px solid #ccc;
+    margin-top:20px;
+    font-size:14px;
+}
+.footer a{
+    color:#666;
+}
+.links{
+    margin-top:15px;
+    margin-bottom:15px;
+}
+.footer .container p:nth-of-type(2){
+    margin-bottom:15px;
+}
+.authentication img{
+    margin-right:10px;
+}
+.shopList  li{
+    padding-top:15px;
+    padding-bottom:10px;
+    border:1px dashed #ccc;
+    overflow: hidden;
+}
+.shopList  li div{
+    float:left;
+    width:20%;
+    text-align:center;
+}
+.shopList .main img{
+    width:50px;
+    height:50px;
+}
+.shopList .add,.shopList .substr,.shopList .qty{
+    display:inline-block;
+    width:20px;
+    height:20px;
+    line-height:20px;
+    border:1px solid #ccc;
+}
+.shopList .qty{
+    width:40px; 
+}

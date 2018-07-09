@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <script src="../js/require.js" data-main="../js/register"></script>
+    <title>注册-z商城</title>
+</head>
+<body>
+    <div class='register'>
+        <div class="common_top">
+            <div class='container clearfix'>
+                <h1 class="logo fl">z-商城</h1>
+                <div class="produce fl"><span class="txt">中关村在线旗下网上商城</span></div>
+                <div class="login-link fr"><span class="txt">已有Z商城账号？<a href="login.html">立即登入</a></span></div>   
+            </div>
+        </div>
+        <div class="register_form">
+            <div class="container clearfix">
+                <div class="title">30秒快速注册，加入Z商城</div>
+                <div class="resign fl">
+                    <div class="resign_tab"><span class="setBorder"><i class="icon_tel"></i>用手机号注册</span></div>
+                        <div class="resign_module">
+                            <div  class="resign_form">   
+                                <label><span class="setColor">*</span> 手机号:</label><input type="text" name="tel" >
+                                <span class="inputTips" id="tips_tel"></span>
+                                <div class="tips">请填写手机号码</div>
+                            </div>
+                            <div  class="resign_form">   
+                                    <label><span class="setColor">*</span> 验证码:</label><input type="text" name="confirm">
+                                    <span class="randomNum" id="getRandomNum"></span>
+                                    <span class="inputTips" id="confirmTip" ></span>
+                                    <div class="tips">请填写图片验证码</div>
+                            </div>
+                            <div  class="resign_form">   
+                                    <label><span class="setColor">*</span> 验证码:</label><input type="text" name="getNote">
+                                    <button class="getNum" id="getNoteNum">获取短信验证码</button>
+                                    <span class="inputTips" ></span>                                    
+                                    <div class="tips">请填写手机号码，然后点击[获取验证码]</div>
+                            </div>
+                            <div  class="resign_form">   
+                                    <label><span class="setColor">*</span> 密码:</label><input type="password" name="pwd">
+                                    <span class="inputTips" id="tips_pwd"></span>                                    
+                                    <div class="tips">6-16位字母和数字的组合，不可用特殊字符</div>
+                            </div>
+                            <div  class="resign_form">   
+                                    <label><span class="setColor">*</span> 确认密码:</label><input type="password" name="pwd_confirm">
+                                    <span class="inputTips" id="tip_Confirm"></span>                                    
+                                    <div class="tips">再次输入密码</div>
+                            </div>
+                            <label class="agreement">                                            
+                                    <input type="checkbox" name="check">同意<a href="#" target="_blank">《商城用户协议》</a><a href="#" target="_blank" class="xy_a">《隐私权说明》</a>
+                            </label>
+                            <input type="submit" value="注册" name="form_submit" class="resign_btn">
+                        </div> 
+                </div>
+                <div class="resign_link fr">
+                    <div class="links">
+                            <p>如果您已经注册，请<a href="#">直接登录</a>或者用以下方式登录：</p>
+                            <a href="#" class="thirdLink"><img src="../img/wx.png" alt=""></a>
+                            <a href="#" class="thirdLink"><img src="../img/xl.png" alt=""></a>
+                            <a href="#" class="thirdLink"><img src="../img/tx.png" alt=""></a>
+                            <a href="#" class="thirdLink"><img src="../img/zfb.png" alt=""></a>
+                            <a href="#" class="thirdLink"><img src="../img/bd.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="common_bottom">
+            <div class="container">
+                <div class="fl ">
+                    <a href="#">关于Z商城</a>
+                    <a href="#">联系我们</a>
+                    <a href="#">帮助中心</a>                    
+                </div>
+                <div class="fr">@2018.中关村在线 版权所有</div>
+            </div>
+        </div>
+    </div>              
+</body>
+</html>

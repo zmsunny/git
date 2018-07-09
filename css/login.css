@@ -1,0 +1,134 @@
+.login_form .container{
+    border:1px solid #ccc;
+    margin-top:45px;
+    margin-bottom:130px;
+}
+.login_img{
+    width:516px;
+    height:347px;
+}
+.login_path{
+    padding: 20px 60px 0 60px;
+}
+.login_head{
+    border-bottom:2px solid #ccc;
+    font-size:18px;
+    height:39px;
+}
+.login_head h3{
+    width:140px;
+    padding-left:35px;
+    cursor:pointer;
+}
+.login_head h3:nth-child(1){
+    line-height:39px;
+    height:39px;
+    border-bottom:2px solid #F81015;
+}
+.login_head h3:nth-child(2){
+    line-height:39px;
+    height:39px;
+    color:#ccc;
+}
+.login_path input{
+    width:338px;
+    height:36px;
+    padding-left:10px;
+    border:1px solid #ccc;
+    margin-bottom:10px;
+}
+.login_buyer{
+    padding-top:25px;
+}
+.login_tel{
+    font-size:14px;
+    position: relative;
+    line-height:25px;
+    height:25px;
+}
+.login_tel .tel-left{
+    padding-left:20px;
+    
+
+}
+.login_tel .tel-left i{
+    width:13px;
+    height:23px;
+    display: block;
+    background: url("../img/sprite.fw.png") no-repeat -22px 0;
+    position:absolute;
+    top:2px;
+    left:2px;
+}
+.login_path input:last-of-type{
+    background-color:#F81015;
+    color:#fff;
+    margin-top:10px;
+    margin-bottom:15px;
+}
+.login_corp{
+    border-bottom:1px solid #ccc;
+    height:1px;
+    position:relative;
+}
+.login_corp p{
+    position: absolute;
+    background:#fff;
+    font-size:14px;
+    color:#666;
+    width:100px;
+    text-align: center;
+    top:-5px;
+    left:125px;
+}
+.login_foot{
+    margin-top:10px;
+    height:45px;
+    position: relative;
+}
+.login_foot a{
+    display:block;
+    width:39px;
+    height:40px;
+    
+    position:absolute;
+}
+.login_foot .wx{
+    background:url("../img/bg .png"); 
+}
+.login_foot .sina{
+    background:url("../img/bg .png") 0 -81px;
+    left:75px; 
+    top:5px;
+}
+.login_foot .qq{
+    background:url("../img/bg .png") -38px -81px;
+    left:130px; 
+    top:5px;
+}
+.login_foot .zfb{
+    background:url("../img/bg .png") -80px -81px;
+    left:185px;
+    top:5px;
+}
+.login_foot .bd{
+    background:url("../img/bg .png") -116px -81px;
+    left:235px; 
+    top:5px;
+}
+.login_foot .sina:hover{
+    background:url("../img/bg .png") 0 -119px;
+}
+.login_foot .qq:hover{
+    background:url("../img/bg .png") -38px -119px;
+}
+.login_foot .zfb:hover{
+    background:url("../img/bg .png") -78px -119px;
+}
+.login_foot .bd:hover{
+    background:url("../img/bg .png") -116px -119px;
+}
+.login_seller{
+    padding-top:25px;
+}
+

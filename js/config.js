@@ -1,0 +1,11 @@
+require.config({
+    paths:{
+        jquery:'../js/jquery-3.3.1',
+        xZoom:'../js/jquery.xZoom',
+        lazy:'../tuupola-jquery_lazyload-2cfbdb5/jquery.lazyload'
+    },
+    shim:{
+        xZoom:['jquery'],
+        lazy:['jquery']
+    }
+})
